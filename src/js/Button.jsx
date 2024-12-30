@@ -20,6 +20,5 @@ function Button({ children, title, ...props }) {
 }
 
 Button.propTypes = propTypes;
-Button.defaultProps = defaultProps;
 
 export default Button;
