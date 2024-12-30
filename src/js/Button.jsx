@@ -5,9 +5,6 @@ const propTypes = {
     children: PropTypes.node.isRequired,
     title: PropTypes.string,
 };
-const defaultProps = {
-    title: null,
-};
 
 function Button({ children, title, ...props }) {
     return (
